@@ -1,0 +1,14 @@
+# 虚拟环境
+.venv/
+venv/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+
+# 运行临时产物（如需保留可删掉这两行）
+# report.csv
+# document_wordcloud.png
