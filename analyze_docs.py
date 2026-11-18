@@ -84,8 +84,8 @@ def make_wordcloud(top_words, font_path, out_image):
 
 
 def save_report(top_words, out_csv):
-    """输出高频词汇总报告"""
-    with open(out_csv, 'w', encoding='utf-8') as f:
+    """输出高频词汇总报告（utf-8-sig：Excel 直接双击打开中文不乱码）"""
+    with open(out_csv, 'w', encoding='utf-8-sig') as f:
         f.write("排名,关键词,出现次数\n")
         for i, (word, count) in enumerate(top_words, 1):
             f.write(f"{i},{word},{count}\n")
