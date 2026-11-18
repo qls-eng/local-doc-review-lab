@@ -28,6 +28,8 @@ Python 实现的本地文档批量分析原型：读取文件夹内的 txt/md �
 ├── report.csv                 # 运行产出：Top50 高频词报告
 ├── document_wordcloud.png     # 运行产出：词云
 ├── pycharm运行截图.png          # PyCharm 内运行成功留档
+├── run_output.txt             # 最近一次运行的完整控制台输出
+├── 实验报告.md                  # 实验报告（目的、实现、结果、坑与小结）
 └── vibe_coding_log.md         # Vibe Coding 全流程痕迹记录
 ```
 
