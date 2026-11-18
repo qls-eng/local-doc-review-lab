@@ -43,6 +43,11 @@ python -m venv .venv
 
 PyCharm 中：绑定项目 `.venv` 解释器 → 右键 `analyze_docs.py` → 运行。
 
+## 设计说明与过程文档
+
+- [实验报告](实验报告.md)：实验目的、实现思路、运行结果、问题与小结
+- [Vibe Coding 协作痕迹](vibe_coding_log.md)：每一轮 Prompt、AI 产出、实际报错与修复记录
+
 ## 关键坑（实验重点）
 
 | 现象 | 根因 | 解法 |
